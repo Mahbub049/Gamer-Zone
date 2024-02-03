@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <!-- DaisyUI and Tailwind CSS Connection -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font Connection -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome connection -->
+    <script src="https://kit.fontawesome.com/6e7e069626.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind CSS Coloring -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'black-color': '#131318',
+                'red-color': '#FF4240',
+                'ash-color': '#89898B',
+                'grey-color': '#ffffff99',
+                'black-ash-color': '#13131833',
+                'paragraph-color': '#13131899',
+                'input-color': '#13131808',
+                'lightgreen': '#49D293',
+                'yellow': '#FFB546',
+                'skyblue': '#4C8DF1',
+                'star': '#F99808',
+                'progress': '#E7E7E8',
+                'icon': '#13131880',
+              }
+            }
+          }
+        }
+      </script>
+
+    <!-- Google Font Styling (RAW CSS) -->
+    <style>
+        .font-worksans{
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-worksans">
+  <header class="container mx-auto mt-11">
+      <nav class="flex flex-col lg:flex-row justify-between items-center gap-10">
+        <div class="flex gap-5">
+          <img src="./images/Frame.png" alt="">
+          <h2 class="text-5xl font-bold"><span class="text-[#FF42A5]">G</span>amer</h2>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center gap-8 font-medium">
+          <a href="">About Us</a>
+          <a href="">Developers</a>
+          <div class="flex items-center gap-6 px-6 py-5 bg-[#0B02231A] rounded-lg">
+            <p>Follow Us On</p>
+            <img src="./images/Vector.png" alt="">
+            <img src="./images/tik-tok 1.png" alt="">
+          </div>
+        </div>
+      </nav>
+  </header>
+</body>
+</html>
